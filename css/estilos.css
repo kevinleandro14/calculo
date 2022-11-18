@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito';
+}
+body{
+	text-align: center;
+	color: #262626;
+	background-image: url(IMAGES/jeje.jpg);
+	background-size: cover;
+}
+h1{
+	color: blueviolet;
+	padding: 70px;
+}
+.container{
+	background-color: white;
+	max-width: 700px;
+	margin: auto;
+	border: 2px solid #000;
+	border-radius: 20px;
+	display: flex;
+	padding: 50px 0;
+}
+.izquierdo{
+	width: 70%;
+	font-size: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.derecha{
+	width: 30%;
+}
+.msj{
+	font-size: 40px;
+	height: 50px;
+}
+.derecha{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.opcion{
+	width: 80px;
+	height: 80px;
+	border: 1px solid  #000;
+	font-size: 50px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: #000;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.opcion:hover{
+	background-color: #262626;
+}
+
+.titulo2{
+	font-size:50px ;
+}
+h3{
+	font-size: 70px;
+	color: blueviolet;
+}
+.descripcion{
+	font-size: 35px;
+}
+
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+         
+  
+  .animation {
+    position: relative;
+    width: 400px;
+    border:1px solid  rgb(72, 170, 209);
+    border-radius: 5px;
+    height:50px;
+    box-sizing: border-box;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    
+}
+.start span:nth-child(1) {
+    background-color:  rgb(72, 170, 209);
+    position: relative;
+    width:0px;
+    height:100%;
+    border-radius: 4px;
+    display: inline-block;
+    animation: mymove 30s linear both;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+.start span:nth-child(2) {
+    color:white;
+    font-weight: bold;
+    position:absolute;
+    left:50%;
+    top:calc(50% - 9px);
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+
+.gracias{
+	font-size:130px ;
+	color: mediumorchid
+}
+
+.img{
+	width: 350px;
+}
+
+.contador{
+	width: 75%;
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content:end;
+	align-items: flex-end;
+}
